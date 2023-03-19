@@ -22,6 +22,9 @@
                 <h6>${{ item.item_price }} </h6>
             </div>
             <div class="col-md-2">
+                <a href="{% url 'food:detail' item.id %}" class="btn btn-success">Details</a>
+                <!-- <button class="btn btn-primary">Add to Cart</button>
+                <button class="btn btn-primary">Add to Wishlist</button> -->
 
             </div>
         </div>
